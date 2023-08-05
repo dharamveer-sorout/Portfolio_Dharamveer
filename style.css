@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("blank.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+    
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+.container div p{
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.links a{
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 19px;
+    color: black;
+}
+
+.links  :hover{
+    color: rgba(19, 22, 22, 0.651);
+    background-color: lightsteelblue;
+}
+
+
+#btn{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 1.5rem;
+    background-color: rgb(68, 194, 216);
+    border-radius: 7px;
+    color: rgb(74, 39, 170);
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem 3rem 0rem 3rem;
+}
+@media screen and (max-width:883px) {
+    .container2{
+        display: block;
+        /* margin: 1rem; */
+}
+    #laptop{
+        height: 10vh;
+    }
+}
+
+.right{
+    align-self: center;
+}
+
+.para1{
+    font-size: xx-large;
+}
+
+#laptop{
+    height: 40vh;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 4px #20130e);
+}
+
+.icon{
+    height: 3rem;
+}
+
+#fwi{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+#fwi a{
+    padding-left: 1rem;
+}
+
+.about_parent{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    align-items: center;
+}
+.about_me{
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    border: 2px solid grey;
+    border-radius: 36px;
+    display: none;
+    font-size: x-large;
+}
+
+.contact{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* height: 80%; */
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+    justify-content: center;
+    align-content: center;
+    /* grid-template-rows: 40% 40%; */
+    display: none;
+}
+
+
