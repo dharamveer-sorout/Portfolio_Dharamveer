@@ -56,4 +56,3 @@ burger.addEventListener('click', j)
 function myFunction(x) {
     x.classList.toggle("change");
   }
-
