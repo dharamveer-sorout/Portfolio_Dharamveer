@@ -42,3 +42,18 @@ let b = ()=>{
 }
 contact.addEventListener('click', b)
 contact.addEventListener('click', z)
+
+let burger = document.body.querySelector('.burger')
+let container = document.body.querySelector('.container')
+let bada = document.body.querySelector('.bada')
+let j = ()=>{
+    container.classList.toggle('container-resp')
+    container.classList.toggle('transition-resp')
+    
+}
+burger.addEventListener('click', j)
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
