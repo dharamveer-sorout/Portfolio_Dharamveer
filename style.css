@@ -73,7 +73,7 @@ body {
 }
 
 .change .line1 {
-    transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 7.3px) rotate(-45deg);
 }
 
 .change .line2 {
@@ -81,7 +81,7 @@ body {
 }
 
 .change .line3 {
-    transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -7.3px) rotate(45deg);
 }
 
 .links :hover {
@@ -127,9 +127,10 @@ body {
 
     }
 
+    
     .container-resp {
-        background-color: rgb(196, 191, 191);
-        border-radius: 12px;
+        background-color: rgb(247, 241, 241);
+        /* border-radius: 12px; */
         display: flex;
         justify-content: center;
     }
@@ -147,7 +148,6 @@ body {
     .burger {
         display: inline-block;
         height: min-content;
-        position: fixed;
     }
 
 }
