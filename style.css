@@ -129,8 +129,6 @@ body {
 
     
     .container-resp {
-        background-color: rgb(247, 241, 241);
-        /* border-radius: 12px; */
         display: flex;
         justify-content: center;
     }
